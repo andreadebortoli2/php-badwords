@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php-badwords</title>
+
+    <style>
+        textarea {
+            display: block;
+        }
+
+        input {
+            width: 300px;
+            margin: 1rem 0;
+            margin-right: 1rem;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="script.php" method="get">
+        <textarea name="text" cols="40" rows="10" placeholder="Write here your text"></textarea>
+        <input type="text" name="bad_word" placeholder="Write here the word that needs to be censored">
+        <button type="submit">SEND</button>
+    </form>
+
+</body>
+
+</html>
